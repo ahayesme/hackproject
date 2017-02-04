@@ -1,2 +1,2 @@
 # hackproject
-made by Tal Amani Andrew
+made by Tal, Amani, and Andrew
