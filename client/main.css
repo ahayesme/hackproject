@@ -8,8 +8,8 @@ input[type=text] {
     transition: width 0.4s ease-in-out;
     border:none;
     padding: 12px 20px;
-    top:30%;
-    left:30%;
+    top:58%;
+    left:20%;
 }
 
 /* When the input field gets focus, change its width to 100% */
@@ -21,8 +21,8 @@ input[type=text]:focus {
     border: none;
     border-bottom: 4px solid red;
     border-radius: 4px;
-    top:30%;
-    left:30%;
+    top:58%;
+    left:20%;
 }
 
 a.button {
