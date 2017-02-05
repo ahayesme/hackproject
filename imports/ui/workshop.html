@@ -1,18 +1,21 @@
-  <template name="Workshop">
+<template name="Workshop">
+
   <blockquote>
     This is a workshop that we used to teach people how to code a web app!
     We have a powerpoint as well as a handout, and are attaching our
     speaking notes. We thought the workshops went really well, and would
     love feedback!
     </blockquote>
+
     <div class="fileupload fileupload-new" data-provides="fileupload">
-       <span class="btn btn-file">
-          <span class="fileupload-new">{{file-upload.label.de}}</span>
-          <span class="fileupload-exists">Andere</span>
-          <input name="{{file-upload.name}}" class="file-upload-input" method="{{file-upload.method}}" type="file"/>
-       </span>
-       <span class="fileupload-preview">
-       </span>
-       <a href="#" class="close fileupload-exists" data-dismiss="fileupload" style="float: none">×</a>
-    </div>
+   <span class="btn btn-file">
+      <span class="fileupload-new"></span>
+      <span class="fileupload-exists">Upload workshop here!</span>
+      <input type="file"/>
+   </span>
+   <span class="fileupload-preview">
+   </span>
+   <a href="#" class="close fileupload-exists" data-dismiss="fileupload" style="float: none">×</a>
+ </div>
+
 </template>
