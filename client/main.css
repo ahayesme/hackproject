@@ -16,3 +16,26 @@ input[type=text]:focus {
     border-bottom: 2px solid red;
     border-radius: 4px;
 }
+
+.header-image {
+    position:absolute;
+    top:0;
+    bottom:0;
+    max-height:1000px;
+    overflow:hidden;
+      left: 0;
+      right: 0;
+    z-index:-1;
+      border:10px solid #545351;
+}
+
+.header {
+    width: 100%;
+    padding-top:50px;
+    margin-top:-10px;
+}
+
+
+.header-image img {
+    width: 100%;
+}
