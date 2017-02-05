@@ -1,13 +1,56 @@
 
-input[type=text] {
-    width: 130px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-    border:10px solid red;
-}
-
 .header {
   width: 100%;
   padding-top:50px;
   margin-top:-10px;
+}
+
+/*input[type=text] {
+    position:absolute;
+    width: 60%;
+    box-sizing: border-box;
+    border: none;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border:none;
+    padding: 12px 20px;
+    top:58%;
+    left:20%;
+}*/
+
+a.button {
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   background-color: #d0021B;
+}
+
+/* When the input field gets focus, change its width to 100% */
+#one:focus {
+  position:absolute;
+  width: 60%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 4px solid red;
+  border-radius: 4px;
+  top:58%;
+  left:20%;
+
+}
+
+#one{
+  position:absolute;
+  width: 60%;
+  box-sizing: border-box;
+  border: none;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  border:none;
+  padding: 12px 20px;
+  top:58%;
+  left:20%;
 }
