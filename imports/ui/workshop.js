@@ -1,6 +1,9 @@
 import { Template } from 'meteor/templating';
 import { Meteor } from 'meteor/meteor';
 
+import { Workshops } from '../api/workshops.js';
+
+import './workshop.html';
 import { ReactiveDict } from 'meteor/reactive-dict';
 
 Template.body.onCreated(function bodyOnCreated() {
@@ -10,6 +13,10 @@ Template.body.onCreated(function bodyOnCreated() {
 
 Template.body.helpers({
   bio() {
+    const instance = Template.instance();
+  }
+
+  photo() {
     const instance = Template.instance();
   }
 })
