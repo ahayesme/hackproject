@@ -1,3 +1,4 @@
+
 .input[type=text] {
     width: 130px;
     -webkit-transition: width 0.4s ease-in-out;
@@ -5,13 +6,8 @@
     border:10px solid red;
 }
 
-/* When the input field gets focus, change its width to 100% */
-input[type=text]:focus {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 2px solid red;
-    border-radius: 4px;
+.header {
+  width: 100%;
+  padding-top:50px;
+  margin-top:-10px;
 }
