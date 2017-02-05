@@ -14,7 +14,7 @@ Template.body.onCreated(function bodyOnCreated() {
 Template.body.helpers({
   bio() {
     const instance = Template.instance();
-  }
+  },
 
   photo() {
     const instance = Template.instance();
