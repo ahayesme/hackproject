@@ -2,7 +2,7 @@
     width: 130px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
-    border:none;
+    border:10px solid red;
 }
 
 /* When the input field gets focus, change its width to 100% */
