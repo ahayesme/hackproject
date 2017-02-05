@@ -29,5 +29,8 @@ Meteor.methods({
       createdAt: new Date(),
       owner: this.userId,
     })
+  },
+  'workshops.toPage'(pageId) {
+    
   }
 });
