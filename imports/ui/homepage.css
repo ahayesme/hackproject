@@ -1,17 +1,17 @@
-.input[type=text] {
-    width: 130px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-    border:none;
+.header-image {
+  position:absolute;
+  top:0;
+  bottom:0;
+  max-height:1000px;
+  overflow:hidden;
+    left: 0;
+    right: 0;
+  z-index:-1;
+    border:10px solid #545351;
 }
 
-/* When the input field gets focus, change its width to 100% */
-input[type=text]:focus {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 2px solid red;
-    border-radius: 4px;
+.header {
+  width: 100%;
+  padding-top:50px;
+  margin-top:-10px;
 }
