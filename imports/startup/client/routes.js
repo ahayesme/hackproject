@@ -14,3 +14,10 @@ FlowRouter.route('/workshop', {
     BlazeLayout.render("mainLayout", {content: "Workshop"});
   }
 });
+
+FlowRouter.route('/about', {
+  action: function() {
+    console.log("about");
+    BlazeLayout.render("mainLayout", {content: "About"});
+  }
+});
