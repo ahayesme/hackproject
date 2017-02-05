@@ -26,6 +26,19 @@
   left:20%;
 }
 
+#tTwo{
+  position:absolute;
+  width: 30%;
+  box-sizing: border-box;
+  border: none;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  border:none;
+  padding: 12px 20px;
+  top:40%;
+  left:5%;
+}
+
 /*input[type=text] {
     position:absolute;
     width: 60%;
